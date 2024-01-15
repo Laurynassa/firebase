@@ -78,4 +78,4 @@ const update = async () => {
 const deletecar = async () => {
   await deleteDoc(doc(db, "cars", "GfSHlYJhezsMq3SR2iob"), {});
 };
-deletecar();
+// deletecar();
